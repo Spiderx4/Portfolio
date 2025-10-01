@@ -136,8 +136,7 @@ figure.effect-oscar img {
 
 figure.effect-oscar figcaption {
 	padding: 3em;
-	background-color: rgba(58,52,42,0.7);
-	-webkit-transition: background-color 0.35s;
+
 	transition: background-color 0.35s;
 }
 
@@ -183,13 +182,9 @@ figure.effect-oscar:hover p {
 	color: #adadad;+++++++
 }
 
-figure.effect-oscar:hover figcaption {
-	background-color: rgba(58, 52, 42, 0.53);
-}
 
-figure.effect-oscar:hover img {
-	opacity: 0.4;
-}
+
+
 
 /* Styles
 ---------------------------------*/
@@ -1387,7 +1382,6 @@ border: 1px solid #CE1139;
     transition: all 0.3s ease-in-out 0s;
     background: transparent;
     border: #2b2b2b solid 1px;
-    color: #2b2b2b;
 }
 
 #filters ul li a:hover h5, #filters ul li a.active h5 {
